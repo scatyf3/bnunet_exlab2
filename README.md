@@ -6,7 +6,7 @@
 
 # 任务
 - 完成两数之和✅
-- 完成处理post请求的routing
+- 完成处理post请求的routing✅
 - 为这个任务设计一个前端
 
 # debug note

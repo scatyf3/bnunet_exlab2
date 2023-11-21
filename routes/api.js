@@ -20,8 +20,8 @@ router.get('/sum', function(req, res, next) {
 //login请求通常使用post，所以我们以它为例
 router.post('/login', function(req, res, next) {
   const requestData = req.body; // 获取请求体数据
-  console.log(requestData)
-  
+  //console.log(requestData)
+  res.send({ 'your_post': req.body });
 });
 
 
