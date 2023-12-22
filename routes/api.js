@@ -11,7 +11,7 @@ router.get('/echo', function(req, res, next) {
 });
 
 router.get('/sum', function(req, res, next) {
-  //手动指定类型为int，否则就是字符串连缀了😭
+  //手动指定类型为int，否则就是字符串连缀了😭      
   const num_a = parseInt(req.query.a);
   const num_b = parseInt(req.query.b);
   res.send({ 'result': num_a + num_b });
@@ -26,3 +26,4 @@ router.post('/login', function(req, res, next) {
 
 
 module.exports = router;
+              
