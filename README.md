@@ -19,8 +19,8 @@ curl -X POST -H "Content-Type: application/json" -d '{"key1":"value1","key2":"va
 
 # pug/jade入门
 
-2023-11-21 下面的url暂不保真，笔者本人还没配出来
+```sh
+npm install jade --global
+jade filename.jade
+```
 
-- https://juejin.cn/post/6941656303018180644
-- https://www.cnblogs.com/fullhouse/archive/2011/07/18/2109945.html
-- https://www.bilibili.com/video/BV1ch411R7S9/?vd_source=de226c8fd56cd769b1cba8174debe3e6
